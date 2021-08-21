@@ -1,0 +1,5 @@
+/*175. Combine Two Tables*/
+
+select FirstName, Lastname, City, State 
+from Person left join address 
+on person.personid= address.personid;
